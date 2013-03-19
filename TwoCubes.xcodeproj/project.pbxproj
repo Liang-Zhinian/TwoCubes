@@ -22,7 +22,7 @@
 		D39FA93016F7BA3400E840FA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39FA92E16F7BA3400E840FA /* MainStoryboard_iPad.storyboard */; };
 		D39FA93216F7BA3400E840FA /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D39FA93116F7BA3400E840FA /* Shader.fsh */; };
 		D39FA93416F7BA3400E840FA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D39FA93316F7BA3400E840FA /* Shader.vsh */; };
-		D39FA93716F7BA3400E840FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39FA93616F7BA3400E840FA /* ViewController.m */; };
+		D39FA93716F7BA3400E840FA /* TwoCubesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39FA93616F7BA3400E840FA /* TwoCubesViewController.m */; };
 		D39FA93F16F7BA3500E840FA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39FA93E16F7BA3500E840FA /* SenTestingKit.framework */; };
 		D39FA94016F7BA3500E840FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39FA90F16F7BA3400E840FA /* UIKit.framework */; };
 		D39FA94116F7BA3500E840FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39FA91116F7BA3400E840FA /* Foundation.framework */; };
@@ -60,8 +60,8 @@
 		D39FA92F16F7BA3400E840FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		D39FA93116F7BA3400E840FA /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		D39FA93316F7BA3400E840FA /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		D39FA93516F7BA3400E840FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D39FA93616F7BA3400E840FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D39FA93516F7BA3400E840FA /* TwoCubesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoCubesViewController.h; sourceTree = "<group>"; };
+		D39FA93616F7BA3400E840FA /* TwoCubesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoCubesViewController.m; sourceTree = "<group>"; };
 		D39FA93D16F7BA3500E840FA /* TwoCubesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoCubesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39FA93E16F7BA3500E840FA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D39FA94616F7BA3500E840FA /* TwoCubesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwoCubesTests-Info.plist"; sourceTree = "<group>"; };
@@ -137,8 +137,8 @@
 				D39FA92E16F7BA3400E840FA /* MainStoryboard_iPad.storyboard */,
 				D39FA93116F7BA3400E840FA /* Shader.fsh */,
 				D39FA93316F7BA3400E840FA /* Shader.vsh */,
-				D39FA93516F7BA3400E840FA /* ViewController.h */,
-				D39FA93616F7BA3400E840FA /* ViewController.m */,
+				D39FA93516F7BA3400E840FA /* TwoCubesViewController.h */,
+				D39FA93616F7BA3400E840FA /* TwoCubesViewController.m */,
 				D39FA91A16F7BA3400E840FA /* Supporting Files */,
 			);
 			path = TwoCubes;
@@ -292,7 +292,7 @@
 			files = (
 				D39FA92016F7BA3400E840FA /* main.m in Sources */,
 				D39FA92416F7BA3400E840FA /* AppDelegate.m in Sources */,
-				D39FA93716F7BA3400E840FA /* ViewController.m in Sources */,
+				D39FA93716F7BA3400E840FA /* TwoCubesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

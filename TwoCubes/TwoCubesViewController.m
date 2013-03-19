@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Black Mountain Coders. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TwoCubesViewController.h"
 
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
 
@@ -74,7 +74,7 @@ GLfloat gCubeVertexData[216] =
     -0.5f, 0.5f, -0.5f,        0.0f, 0.0f, -1.0f
 };
 
-@interface ViewController () {
+@interface TwoCubesViewController () {
     GLuint _program;
     
     GLKMatrix4 _modelViewProjectionMatrix;
@@ -96,7 +96,7 @@ GLfloat gCubeVertexData[216] =
 - (BOOL)validateProgram:(GLuint)prog;
 @end
 
-@implementation ViewController
+@implementation TwoCubesViewController
 
 - (void)viewDidLoad
 {
